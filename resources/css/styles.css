@@ -15,14 +15,16 @@ h1 {
 
 h2 {
     font-size: 32px;
-    font-weight: bold;
-    color: black;
 }
 
 h3 {
     font-size: 23px;
+}
+
+h2, h3 {
     font-weight: bold;
     color: black;
+    margin: 20px 0;
 }
 
 div h3 {
@@ -34,13 +36,9 @@ p {
     color: black;
 }
 
-a {
-    font-size: 18px;
-    color: white;
-}
-
 footer {
     background-color: dimgray;
+    text-align: left;
 }
 
 footer p {
@@ -48,10 +46,7 @@ footer p {
     color: white;
 }
 
-footer p, footer ul {
-    text-align: left;
-}
-
-footer > ul > li {
-    display: inline-block;
+a {
+    font-size: 18px;
+    color: white;
 }
