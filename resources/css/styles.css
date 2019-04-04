@@ -5,6 +5,10 @@ body {
     text-align: center;
 }
 
+header, div, footer {
+    width: 100%;
+}
+
 .bg-image {
     background-image: url(resources/images/the-flatiron-building.png);
 }
