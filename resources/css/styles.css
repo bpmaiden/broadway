@@ -1,16 +1,12 @@
 body {
-    background-color: white;
     font-family: Helvetica, sans-serif;
     color: white;
     text-align: center;
 }
 
-header, div, footer {
-    width: 100%;
-}
-
-header.bg-image, div.bg-image {
-    background-image: url("./resources/images/the-flatiron-building.png");
+.bg-image {
+    background-color: dimgray;
+    background-image: url("../images/the-flatiron-building.png");
 }
 
 h1 {
