@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+.bg-image {
+    background-image: url(resources/images/the-flatiron-building.png);
+}
+
+footer {
+    background-color: dimgray;
+}
+
+footer p, footer ul {
+    float: left;
+}
+
+footer > ul > li {
+    display: inline-block;
+}
