@@ -9,8 +9,8 @@ header, div, footer {
     width: 100%;
 }
 
-.bg-image {
-    background-image: url(resources/images/the-flatiron-building.png);
+header.bg-image, div.bg-image {
+    background-image: url("./resources/images/the-flatiron-building.png");
 }
 
 h1 {
@@ -43,17 +43,16 @@ a {
     color: white;
 }
 
+footer {
+    background-color: dimgray;
+}
+
 footer p {
     font-size: 11px;
     color: white;
 }
 
-footer {
-    background-color: dimgray;
-}
-
 footer p, footer ul {
-    float: left;
     text-align: left;
 }
 
